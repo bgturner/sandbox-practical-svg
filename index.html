@@ -13,13 +13,13 @@
 </head>
 <body>
 	<h1>Learning SVGs</h1>
-	<svg class="icon icon-pp-logo" viewBox="0 0 100 100">
-		<title>Passions Play Logo</title>
+	<svg class="icon icon-pp-logo">
 		<use xlink:href="#pp-logo" />
 	</svg>
+
 	<svg>
-		<defs>
-			<g id="pp-logo">
+		<symbol id="pp-logo" viewBox="0 0 100 100">
+			<title>Passions Play Logo</title>
 				<circle
 					 r="13"
 					 cy="55"
@@ -37,8 +37,8 @@
 					 rx="0"
 					 ry="0"
 					 transform="matrix(1,0,-0.21255656,1,0,0)" />
-			</g>
-		</defs>
+		</symbol>
 	</svg>
+
 </body>
 </html>
