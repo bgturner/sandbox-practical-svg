@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg">
+	<!-- 
+
+	Using the `symbol` element is helpful for creating an icon library
+	because it allows us to define accessibility elements like `title`
+	as well as attributes like `viewBox` for a more consistent implementation.
+
+	This also means that the actual markup in the main document is cleaner
+	since all of these definitions are defined in one place, we simply 
+	need to reference the element using an `xlink:href` attribute, something
+	like:
+
+	<svg class="icon icon-pp-logo">
+		<use xlink:href="/pp-logo.svg#pp-logo" />
+	</svg>
+
+	Note that the `xlink:href` can reference an external file. This is
+	important because we can make use of browser cacheing of this file.
+
+	Also note that for this document to be valid, we need the xml doctype:
+
+	`<?xml version="1.0" encoding="UTF-8" standalone="no"?>`
+
+	along with the namespace on the svg element:
+
+	`<svg xmlns="http://www.w3.org/2000/svg">`
+
+	-->
 	<symbol id="pp-logo" viewBox="0 0 100 100">
 		<title>Passions Play Logo</title>
 			<circle
