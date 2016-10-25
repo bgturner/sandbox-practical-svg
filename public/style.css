@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400');
+
+html {
+	font-family: Raleway, sans-serif;
+	font-size: 18px;
+	color: #444;
+	background-color: purple;
+	padding: 0 5%;
+}
+
+body {
+	max-width: 960px;
+	margin: 2em auto;
+	padding: 5%;
+	background-color: #fff;
+}
+
+h2 {
+	margin-top: 2em;
+}
+
+pre {
+	font-size: .75em;
+	background-color: #ddd;
+	color: black;
+	padding: 2em;
+	overflow-x: scroll;
+}
+
 .icon {
 	width: 5em;
 	height: 5em;
@@ -9,4 +38,3 @@
 	width: 200px;
 	height: 200px;
 }
-
