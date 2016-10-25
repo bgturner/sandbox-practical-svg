@@ -4,6 +4,7 @@
   "description": "A sandbox repo to work through examples from Practical SVG by Chris Coyier.",
   "main": "index.js",
   "scripts": {
+		"start": "gulp serve",
     "server": "browser-sync start --server 'public' --files 'public'"
   },
   "author": "Benjamin Turner",
