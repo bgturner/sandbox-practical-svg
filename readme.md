@@ -8,6 +8,7 @@ It comes with gulp to start a [browserSync](https://www.browsersync.io/) instanc
 
 The main goal of this is to increase understanding of SVG and what it's limitations are. Most of the things in here are gleaned from reading Practical SVG, but there are some other really good resources to review, especially when doing more advanced functionality like styling and animation:
 
+* [A Compendium of SVG Information](https://css-tricks.com/mega-list-svg-information/)
 * [Styling SVG `use` Content with CSS](http://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/)
 * [SVG and Media Queries](https://jakearchibald.com/2016/svg-media-queries/)
 * [Rethinking Responsive SVG](https://www.smashingmagazine.com/2014/03/rethinking-responsive-svg/)
